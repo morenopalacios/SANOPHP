@@ -1,0 +1,566 @@
+ body {
+	  background-image:url(../imagenes/color.png );
+	  background-repeat:no-repeat;
+	  background-size: 1380px 900px;
+  }
+
+
+/*Estilos del primer menu*/
+#menu1{
+	padding-left:25px; 
+	margin-top:60px; 
+	margin-left: 350px;
+}
+
+	#menu1 li{
+		list-style:none; 
+		float:left;
+	}
+
+		#menu1 li a{
+			display:block; 
+			width:200px;
+			height:20px; 
+			background:#D2B48C;
+			border:1px solid; 
+			padding:2px;
+			text-decoration:none;
+			text-align:center; 
+			color:#000000;
+			font-family:arial; 
+			font-size:15px;
+			font-weight:bold;
+		}
+
+			#menu1 li a:hover{
+				background:#F5DEB3;
+				border-color:transparent;
+				color:#000000;
+			}
+
+				#menu1 li ul{
+					display:none; 
+					position:absolute;
+				}
+
+					#menu1 li ul li {
+						display:block; 
+						float:none; 
+						position:relative; 
+						padding:0px;
+					}
+
+						#menu1 li:hover ul{
+							display:block; 
+							padding-left:0px;
+						}
+
+							#menu1 li ul li a{
+								display:block;
+							}
+
+/*Estilos del segundo menu*/
+#menu2{
+	padding-left:25px; 
+	margin-top:15px;
+}
+
+	#menu2 li{
+		list-style:none; 
+		float:left;
+	}
+
+		#menu2 li a{
+			display:block; 
+			width:200px;
+			height:20px; 
+			background:#D2B48C;
+			border:1px solid; 
+			padding:2px;
+			text-decoration:none;
+			text-align:center; 
+			color:#000;
+			font-family:arial; 
+			font-size:15px;
+			font-weight:bold;
+		}
+
+			#menu2 li a:hover{
+				background:#F5DEB3;
+			 	border-color:#000000;
+				color:#000000;
+			}
+
+				#menu2 li ul{
+					display:none; 
+					position:absolute;
+				}
+
+					#menu2 li ul li {
+						display:block; 
+						float:none; 
+						position:relative; 
+						padding:0px;
+					}
+
+						#menu2 li:hover ul{
+							display:block; padding-left:0px;
+						}
+
+							#menu2 li ul li a{
+								display:block;
+							}
+
+
+#border{
+	margin-right:0px;
+	margin-left:0px;
+	margin-bottom:0px;
+	margin-top:40px;
+
+	border-top-width:5px;
+	border-bottom-width:5px;
+	border-left-width:5px;
+	border-right-width:5px;
+	border-style:solid;
+	height: 600px;
+	border-color:#CD853F;
+}
+
+
+#menu3{
+	padding-left:25px; 
+	margin-top:15px;
+}
+
+	#menu3 li{
+		list-style:none; 
+		float:left;
+	}
+
+		#menu3 li a{
+			display:block; 
+			width:200px;
+			height:20px; 
+			background:#D2B48C;
+			border:1px solid;
+		    padding:2px;
+			text-decoration:none;
+			text-align:center; 
+			color:#000000;
+			font-family:arial; 
+			font-size:15px;
+			font-weight:bold;
+		}
+
+			#menu3 li a:hover{
+				background:#F5DEB3;
+				border-color:transparent;
+				color:#000000;
+			}
+
+				#menu3 li ul{
+					display:none; 
+					position:absolute;
+				}
+
+					#menu3 li ul li {
+						display:block; 
+						float:none; 
+						position:relative; 
+						padding:0px;
+					}
+
+						#menu3 li:hover ul{
+							display:block; 
+							padding-left:0px;
+						}
+
+							#menu3 li ul li a{
+								display:block;
+							}
+
+
+#form {	
+	float: left;
+	margin-right:0px;
+    margin-left:1000px;
+    margin-bottom:1000px;
+    margin-top:0px;
+    border-top-width:8px;
+	border-bottom-width:8px;
+	border-left-width:8px;
+	border-right-width:8px;
+	border-style:solid;
+	height: 200px;
+	border-color:#3ADF00;
+	background-color: #D7DF01;
+}
+
+	#formulario1{
+		float: left;
+		
+		margin-right:190px;
+	    margin-left:100px;
+	    margin-bottom:1000px;
+	    margin-top:10px;
+
+	    border-top-width:3px;
+		border-bottom-width:3px;
+		border-left-width:3px;
+		border-right-width:3px;
+		border-style:solid;
+		height: 255px;
+		width:300px;
+		border-color:#CD853F;
+		background-color:#D2B48C;
+	}
+
+
+		#formulario2{
+			float: left;
+			margin-right:190px;
+		    margin-left:100px;
+		    margin-bottom:1000px;
+		    margin-top:10px;
+		    border-top-width:3px;
+			border-bottom-width:3px;
+			border-left-width:3px;
+			border-right-width:3px;
+			border-style:solid;
+			height: 200px;
+			width:320px;
+			border-color:#CD853F;
+			background-color:#D2B48C;
+		}
+
+/*Estilos de registrar observaciones*/
+#observaciones{
+	float: left;
+	margin-right:190px;
+    margin-left:100px;
+    margin-bottom:1000px;
+    margin-top:10px;
+    border-top-width:3px;
+	border-bottom-width:3px;
+	border-left-width:3px;
+	border-right-width:3px;
+	border-style:solid;
+	height: 100px;
+	width:300px;
+	border-color:#CD853F;
+	background-color:#D2B48C;
+}
+
+/*Estilos de registrar funcionario*/
+		#funciona{
+			float: left;
+			margin-right:190px;
+		    margin-left:100px;
+		    margin-bottom:1000px;
+		    margin-top:10px;
+		    border-top-width:3px;
+			border-bottom-width:3px;
+			border-left-width:3px;
+			border-right-width:3px;
+			border-style:solid;
+			height: 320px;
+			width:300px;
+			border-color:#CD853F;
+			background-color:#D2B48C;
+		}
+
+/*Estilos de consultar funcionario*/
+#consulfun{     
+    margin-right:190px;
+    margin-left:100px;
+    margin-bottom:1000px;
+    margin-top:90px;
+    border-top-width:3px;
+	border-bottom-width:3px;
+	border-left-width:3px;
+	border-right-width:3px;
+	border-style:solid;
+	height: 100px;
+	width:300px;
+	border-color:#CD853F;
+	background-color:#D2B48C;
+}
+
+/*Estilos de cambiar clave de funcionario*/
+		#cambiacla{
+			float: left;
+			margin-right:190px;
+		    margin-left:100px;
+		    margin-bottom:1000px;
+		    margin-top:90px;
+		    border-top-width:3px;
+			border-bottom-width:3px;
+			border-left-width:3px;
+			border-right-width:3px;
+			border-style:solid;
+			height: 170px;
+			width:350px;
+			border-color:#CD853F;
+			background-color:#D2B48C;
+		}
+
+				#consuleven{
+					float: left;
+					margin-right:400px;
+				    margin-left:0px;
+				    margin-bottom:1000px;
+				    margin-top:50px;
+				    border-top-width:3px;
+					border-bottom-width:3px;
+					border-left-width:3px;
+					border-right-width:3px;
+					border-style:solid;
+					height: 150px;
+					border-color:#CD853F;
+					background-color:#D2B48C;
+				}
+
+
+/*Estilos para los pasos*/
+img{
+	margin-left: 71%;
+	margin-top: -250px;
+	position: absolute;
+}
+	#pasos {
+	  max-width: 100%;
+	}
+		#pasos div {
+		  float: left;
+		  margin: 1em;
+		  padding: .5em;
+		  border: 1px solid #000;
+		  width: 300px;
+		  height: 155px;
+		  font-family: georgia;
+		}
+
+			h4{
+				margin-left: 450px;
+				font-family: georgia;
+			}
+				p{
+					text-align: justify;
+					font-family: georgia;
+				}
+
+					.inter{
+					 font-family: georgia;
+					}
+
+
+/* Estilos del modulo Seguridad(william)*/
+.fondoSeguridad{
+	border-color:#CD853F;
+	background-color:#D2B48C;
+	border-style:solid;
+	width: 800px;
+	height: 340px;
+	margin: 50px 50px 50px 250px;
+}
+
+		.LUsuario{
+			float: left;
+			position: relative;
+			width: 30%;
+			margin-left: 30%;
+			margin-top: 10%;
+		}
+
+			.LRol{
+				position: absolute;
+				width: 25%;
+				margin-left: 30%;
+			  	margin-top: 78px;
+			}
+
+.Aceptar{
+	background-color: #D7BD9C;
+	position: absolute;
+	width: 25%;
+	height: 14%;
+	margin-left: 16%;
+  	margin-top: 220px;
+}
+
+		#subAceptar{
+			 float: left;
+			 position: absolute;
+			 margin-left: 100px;
+			 margin-top: 15px;
+		}
+
+				.labelAceptar{
+					float: left;
+					position: absolute;
+					width: 50%;
+					margin-left: 75px;
+				}
+
+					.radioAceptar{
+						margin-left: 250px;
+						margin-top: 10px;
+					}
+
+							h2{
+								text-align: center;
+								padding: 15px 0px 0px 0px;
+							}
+	
+/*ESTILOS DE LINDA*/
+.fomu{
+	float- left:400px;
+	margin-right:190px;
+    margin-left:5px;
+    margin-bottom:30px;
+    margin-top:30px;
+    border-top-width:3px;
+	border-bottom-width:3px;
+	border-left-width:3px;
+	border-right-width:3px;
+	border-style:solid;
+	height: 500px;
+	width:500px;
+	border-color:#CD853F;
+	background-color:#D2B48C;
+}
+
+	p{
+		padding-left: 20px;
+		padding-right: 10px;
+		color:black;
+	}
+
+		button{
+			padding-left: 20px;
+			padding-right: 10px;
+		}
+
+			.fomu2{
+				float:left;
+				margin-right:190px;
+			    margin-left:20px;
+			    margin-bottom:1000px;
+			    margin-top:30px;
+			    border-top-width:3px;
+				border-bottom-width:3px;
+				border-left-width:3px;
+				border-right-width:3px;
+				border-style:solid;
+				height: 200px;
+				width:300px;
+				border-color:#CD853F;
+				background-color:#D2B48C;
+			}
+
+					.modi{
+						float: left;
+						margin-right:190px;
+					    margin-left:100px;
+					    margin-bottom:1000px;
+					    margin-top:10px;
+					    border-top-width:3px;
+						border-bottom-width:3px;
+						border-left-width:3px;
+						border-right-width:3px;
+						border-style:solid;
+						height: 200px;
+						width:300px;
+						border-color:#CD853F;
+						background-color:#D2B48C;
+					}
+
+							.modi2{
+								float:left;
+								margin-right:190px;
+							    margin-left:20px;
+							    margin-bottom:1000px;
+							    margin-top:10px;
+							    border-top-width:3px;
+								border-bottom-width:3px;
+								border-left-width:3px;
+								border-right-width:3px;
+								border-style:solid;
+								height: 200px;
+								width:300px;
+								border-color:#CD853F;
+								background-color:#D2B48C;
+							}
+/*Modulo de estadistica*/
+
+
+.tipo{
+	float:center;
+margin:0px 0px 10px 10px;
+border:8px 8px 8px 8px;
+border-style:solid;
+height: 130px;
+width: 200px;
+border-color:blue;
+margin-left: 50px;
+background-color:#FAEBD7;
+
+}
+
+	img{
+		float:right;
+	    width:450px;
+		height:330px;
+		bottom:400px;
+		border:20px 10px 10px 10px;
+		border-color:#CD853F; 
+		margin-left:900px;
+	}
+
+			#formu{
+				float- left:400px;
+				margin-right:190px;
+			    margin-left:5px;
+			    margin-bottom:30px;
+			    margin-top:30px;
+
+			    border-top-width:3px;
+				border-bottom-width:3px;
+				border-left-width:3px;
+				border-right-width:3px;
+				border-style:solid;
+				height: 300px;
+				width:300px;
+				border-color:#CD853F;
+				background-color:#D2B48C;
+			}
+
+			.modi3{
+	float- left:400px;
+	margin-right:190px;
+    margin-left:5px;
+    margin-bottom:30px;
+    margin-top:30px;
+
+    border-top-width:3px;
+	border-bottom-width:3px;
+	border-left-width:3px;
+	border-right-width:3px;
+	border-style:solid;
+	height: 500px;
+	width:500px;
+	border-color:#CD853F;
+	background-color:#D2B48C;
+
+}
+
+.img1{
+	float: left;
+    width:450px;
+	height:430px;
+	bottom:280px;
+	border:20px 100px 10px 10px;
+	border-color:#CD853F; 
+	margin-left: 20px;
+}
