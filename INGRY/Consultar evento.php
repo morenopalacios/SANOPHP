@@ -17,10 +17,10 @@
        <ul> 
           <li><a href="#">Nuevo </a></li>
           <li><a href="#">Abrir </a></li>
-          <li><a href="#">Guardar</a></li> 
-          <li><a href="#">Imprimir</a></li> 
-          <li><a href="#">Enviar</a></li>  
-          <li><a href="#">Salir</a></li> 
+          <li><a href="#">Guardar </a></li> 
+          <li><a href="#">Imprimir </a></li> 
+          <li><a href="#">Enviar </a></li>  
+          <li><a href="#">Salir </a></li> 
        </ul> 
      </li>
 
